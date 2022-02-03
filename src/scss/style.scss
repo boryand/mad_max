@@ -1,0 +1,51 @@
+@import "variables.scss";
+@import "landing.scss";
+@import "soups.scss";
+@import "starters.scss";
+@import "main_dishes.scss";
+@import "cocktails.scss";
+.container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: row;
+  list-style-type: none;
+  background-color: $red_accent;
+
+  height: 50px;
+
+  li {
+    margin-left: 15px;
+    a {
+      text-decoration: none;
+      color: $background;
+      font-family: $basic_font;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  }
+}
+
+.link1 {
+  text-decoration: none;
+}
+
+// Soups

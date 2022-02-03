@@ -1,0 +1,66 @@
+.soup_container {
+  background-color: $background;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.soup {
+  height: 300px;
+  width: 400px;
+}
+
+.soup_section {
+  margin-top: 50px;
+  width: 700px;
+  text-align: center;
+  box-shadow: 8px 8px 5px #990011ff;
+  -moz-box-shadow: 8px 8px 5px #990011ff;
+  -webkit-box-shadow: 8px 8px 5px #990011ff;
+  -khtml-box-shadow: 8px 8px 5px #990011ff;
+  border-radius: 8px 100px / 120px;
+  margin-bottom: 20px;
+
+  h4 {
+    font-family: $accent_font;
+    font-size: 4rem;
+    color: black;
+    text-shadow: 2px 5px gray;
+    padding: 40px;
+  }
+
+  p {
+    font-family: $basic_font;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 40px;
+    line-height: 1.5rem;
+  }
+}
+.btn {
+  align-self: flex-start;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: fixed;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 150px;
+  text-align: center;
+  border: 2px solid $red_accent;
+  a {
+    text-decoration: none;
+    color: $red_accent;
+    font-family: $nav_font;
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.btn a:hover {
+  color: $red_accent;
+  background-color: $background;
+}
