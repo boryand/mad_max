@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Montserrat:wght@100&family=Qwitcher+Grypen:wght@700&family=Roboto+Slab:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Montserrat:wght@100&family=Roboto+Slab:wght@100&display=swap");
+.container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff4ef;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Comforter", cursive;
+  margin-bottom: 15px;
+  font-size: 5rem;
+  color: #dfd4c8;
+  text-shadow: 2px 2px #990011ff;
+}
+.soup_container {
+  background-color: #fff4ef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.soup {
+  height: 300px;
+  width: 400px;
+}
+
+.soup_section {
+  margin-top: 50px;
+  width: 700px;
+  text-align: center;
+  box-shadow: 8px 8px 5px #990011ff;
+  -moz-box-shadow: 8px 8px 5px #990011ff;
+  -webkit-box-shadow: 8px 8px 5px #990011ff;
+  -khtml-box-shadow: 8px 8px 5px #990011ff;
+  border-radius: 8px 100px / 120px;
+  margin-bottom: 20px;
+}
+
+.soup_section h4 {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 4rem;
+  color: black;
+  text-shadow: 2px 5px gray;
+  padding: 40px;
+}
+
+.soup_section p {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 40px;
+  line-height: 1.5rem;
+}
+
+.btn {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: fixed;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 150px;
+  text-align: center;
+  border: 2px solid #990011ff;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #990011ff;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn a:hover {
+  color: #990011ff;
+  background-color: #fff4ef;
+}
+
+.starters_container {
+  background-color: #fff4ef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.starter {
+  height: 300px;
+  width: 400px;
+}
+
+.starters_section {
+  margin-top: 50px;
+  width: 700px;
+  text-align: center;
+  box-shadow: 8px 8px 5px #990011ff;
+  -moz-box-shadow: 8px 8px 5px #990011ff;
+  -webkit-box-shadow: 8px 8px 5px #990011ff;
+  -khtml-box-shadow: 8px 8px 5px #990011ff;
+  border-radius: 8px 100px / 120px;
+  margin-bottom: 20px;
+}
+
+.starters_section h4 {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 4rem;
+  color: black;
+  text-shadow: 2px 5px gray;
+  padding: 40px;
+}
+
+.starters_section p {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 40px;
+  line-height: 1.5rem;
+}
+
+.btn {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: fixed;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 150px;
+  text-align: center;
+  border: 2px solid #990011ff;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #990011ff;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn a:hover {
+  color: #990011ff;
+  background-color: #fff4ef;
+}
+
+.main_container {
+  background-color: #fff4ef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main {
+  height: 300px;
+  width: 400px;
+}
+
+.main_section {
+  margin-top: 50px;
+  width: 700px;
+  text-align: center;
+  box-shadow: 8px 8px 5px #990011ff;
+  -moz-box-shadow: 8px 8px 5px #990011ff;
+  -webkit-box-shadow: 8px 8px 5px #990011ff;
+  -khtml-box-shadow: 8px 8px 5px #990011ff;
+  border-radius: 8px 100px / 120px;
+  margin-bottom: 20px;
+}
+
+.main_section h4 {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 4rem;
+  color: black;
+  text-shadow: 2px 5px gray;
+  padding: 40px;
+}
+
+.main_section p {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 40px;
+  line-height: 1.5rem;
+}
+
+.btn {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: fixed;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 150px;
+  text-align: center;
+  border: 2px solid #990011ff;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #990011ff;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn a:hover {
+  color: #990011ff;
+  background-color: #fff4ef;
+}
+
+.cocktails_container {
+  background-color: #fff4ef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cocktail {
+  height: 300px;
+  width: 400px;
+}
+
+.cocktails_section {
+  margin-top: 50px;
+  width: 700px;
+  text-align: center;
+  box-shadow: 8px 8px 5px #990011ff;
+  -moz-box-shadow: 8px 8px 5px #990011ff;
+  -webkit-box-shadow: 8px 8px 5px #990011ff;
+  -khtml-box-shadow: 8px 8px 5px #990011ff;
+  border-radius: 8px 100px / 120px;
+  margin-bottom: 20px;
+}
+
+.cocktails_section h4 {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 4rem;
+  color: black;
+  text-shadow: 2px 5px gray;
+  padding: 40px;
+}
+
+.cocktails_section p {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 40px;
+  line-height: 1.5rem;
+}
+
+.btn {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: fixed;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 150px;
+  text-align: center;
+  border: 2px solid #990011ff;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #990011ff;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn a:hover {
+  color: #990011ff;
+  background-color: #fff4ef;
+}
+
+.container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: row;
+      -ms-flex: row;
+          flex: row;
+  list-style-type: none;
+  background-color: #990011ff;
+  height: 50px;
+}
+
+.nav ul li {
+  margin-left: 15px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #fff4ef;
+  font-family: "Roboto Slab", serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.link1 {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

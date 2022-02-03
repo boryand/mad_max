@@ -1,23 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "../src/scss/style.css";
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Landing from "./components/Landing";
+import Nav from "./components/Navbar";
+import Our_menu from "./components/Our_menu";
+import Wine_list from "./components/Wine_list";
+import Desserts from "./components/Desserts";
+import Contact_us from "./components/Contact_us";
+import Soups from "./components/Soups";
+import Starters from "./components/Starters";
+import Main_dishes from "./components/Main_dishes";
+import Cocktails from "./components/Cocktails";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Nav />
+        <Switch>
+          <Route exact path="/home">
+            <Landing />
+          </Route>
+          <Route exact path="/menu">
+            <Our_menu />
+          </Route>
+          <Route exact path="/wine_list">
+            <Wine_list />
+          </Route>
+          <Route exact path="/desserts">
+            <Desserts />
+          </Route>
+          <Route exact path="/contact_us">
+            <Contact_us />
+          </Route>
+          <Route exact path="/soups">
+            <Soups />
+          </Route>
+          <Route exact path="/starters">
+            <Starters />
+          </Route>
+          <Route exact path="/main_dishes">
+            <Main_dishes />
+          </Route>
+          <Route exact path="/cocktails">
+            <Cocktails />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
