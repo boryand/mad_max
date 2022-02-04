@@ -1,0 +1,61 @@
+.wine {
+  height: 650px;
+  margin-top: 20px;
+}
+
+.wine_container {
+  background-color: black;
+}
+
+.wine_bottles {
+  background-color: black;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.wine_bottle {
+  height: 420px;
+  width: 300px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+
+  p {
+    margin-top: 20px;
+    font-family: $basic_font;
+  }
+
+  h4 {
+    font-family: $accent_font;
+    font-size: 2rem;
+  }
+}
+
+.pic_wine_container {
+  display: flex;
+  background-color: black;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wine1,
+.wine2,
+.wine3,
+.wine4 {
+  height: 250px;
+}
+
+.hol {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  width: 300px;
+  background-color: black;
+  padding: 20px;
+}

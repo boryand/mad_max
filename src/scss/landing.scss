@@ -4,24 +4,24 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   background-color: #fff4ef;
   height: 100vh;
 }
 
-h1 {
+.message {
   font-family: "Comforter", cursive;
   margin-bottom: 15px;
   font-size: 5rem;
-  color: #dfd4c8;
-  text-shadow: 2px 2px #990011ff;
+  color: black;
+  text-shadow: 2px 6px #990011ff;
 }
 /*# sourceMappingURL=landing.css.map */

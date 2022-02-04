@@ -12,6 +12,7 @@ import Soups from "./components/Soups";
 import Starters from "./components/Starters";
 import Main_dishes from "./components/Main_dishes";
 import Cocktails from "./components/Cocktails";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <Router>
         <Nav />
         <Switch>
-          <Route exact path="/home">
+          <Route exact path="/">
             <Landing />
           </Route>
           <Route exact path="/menu">
@@ -47,6 +48,7 @@ function App() {
             <Cocktails />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

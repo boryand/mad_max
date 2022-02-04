@@ -6,7 +6,7 @@ import starter4 from "../media/starter4.jpg";
 const Starters = () => {
   return (
     <div className="starters_container">
-       <button className="btn">
+      <button className="btn">
         {" "}
         <a href="/menu">Go Back</a>
       </button>
