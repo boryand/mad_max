@@ -1,0 +1,40 @@
+.logo_container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: $background;
+  color: black;
+  height: 600px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dev_contact {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+
+  h6 {
+    font-family: $accent_font;
+    font-size: 4rem;
+    color: $red_accent;
+  }
+}
+
+.media {
+  height: 55px;
+  margin-top: 15px;
+}
+
+.media:hover {
+  cursor: pointer;
+}
+
+.my_contacts {
+  font-family: $accent_font;
+  font-size: 6rem;
+  color: $red_accent;
+}

@@ -18,12 +18,12 @@
   height: 100vh;
 }
 
-h1 {
+.message {
   font-family: "Comforter", cursive;
   margin-bottom: 15px;
   font-size: 5rem;
-  color: #dfd4c8;
-  text-shadow: 2px 2px #990011ff;
+  color: black;
+  text-shadow: 2px 6px #990011ff;
 }
 .soup_container {
   background-color: #fff4ef;
@@ -70,7 +70,7 @@ h1 {
   font-size: 1.2rem;
   font-weight: bold;
   padding: 40px;
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 
 .btn {
@@ -301,7 +301,7 @@ h1 {
   font-size: 1.2rem;
   font-weight: bold;
   padding: 40px;
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 
 .btn {
@@ -331,6 +331,219 @@ h1 {
 .btn a:hover {
   color: #990011ff;
   background-color: #fff4ef;
+}
+
+.wine {
+  height: 650px;
+  margin-top: 20px;
+}
+
+.wine_container {
+  background-color: black;
+}
+
+.wine_bottles {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.wine_bottle {
+  height: 420px;
+  width: 300px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.wine_bottle p {
+  margin-top: 20px;
+  font-family: "Roboto Slab", serif;
+}
+
+.wine_bottle h4 {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 2rem;
+}
+
+.pic_wine_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.wine1,
+.wine2,
+.wine3,
+.wine4 {
+  height: 250px;
+}
+
+.hol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  width: 300px;
+  background-color: black;
+  padding: 20px;
+}
+
+.dess1 {
+  height: 350px;
+}
+
+.sweet {
+  color: white;
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 6rem;
+  text-shadow: 2px 4px #990011ff;
+}
+
+.dessert_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  height: 500px;
+}
+
+.dessert_container h4 {
+  color: #fff4ef;
+}
+
+.welcome {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dessert {
+  height: 300px;
+  width: 400px;
+}
+
+.dessert_section {
+  margin-top: 50px;
+  width: 700px;
+  text-align: center;
+  box-shadow: 5px 5px 5px #990011ff;
+  -moz-box-shadow: 5px 5px 5px #990011ff;
+  -webkit-box-shadow: 5px 5px 5px #990011ff;
+  -khtml-box-shadow: 5px 5px 5px #990011ff;
+  border-radius: 8px 100px / 120px;
+  margin-bottom: 20px;
+}
+
+.dessert_section h4 {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 4rem;
+  color: white;
+  text-shadow: 2px 5px #990011ff;
+  padding: 40px;
+}
+
+.dessert_section p {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 40px;
+  line-height: 2rem;
+  color: white;
+}
+
+.ice_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+}
+
+.logo_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #fff4ef;
+  color: black;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dev_contact {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 500px;
+}
+
+.dev_contact h6 {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 4rem;
+  color: #990011ff;
+}
+
+.media {
+  height: 55px;
+  margin-top: 15px;
+}
+
+.media:hover {
+  cursor: pointer;
+}
+
+.my_contacts {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 6rem;
+  color: #990011ff;
 }
 
 .container1 {
@@ -367,22 +580,48 @@ h1 {
           flex: row;
   list-style-type: none;
   background-color: #990011ff;
-  height: 50px;
+  height: 80px;
 }
 
 .nav ul li {
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 .nav ul li a {
   text-decoration: none;
   color: #fff4ef;
   font-family: "Roboto Slab", serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
 .link1 {
   text-decoration: none;
+}
+
+.vid {
+  width: 800px;
+}
+
+.footer {
+  height: 80px;
+  background-color: #990011ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff4ef;
+  font-family: "Montserrat", sans-serif;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

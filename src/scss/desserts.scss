@@ -1,0 +1,76 @@
+.dess1 {
+  height: 350px;
+}
+.sweet {
+  color: white;
+  font-family: $accent_font;
+  font-size: 6rem;
+  text-shadow: 2px 4px $red_accent;
+}
+.dessert_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  height: 500px;
+
+  h4 {
+    color: $background;
+  }
+}
+
+.welcome {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+// .dessert_container {
+//     background-color: $background;
+//     display: flex;
+//     flex-direction: column;
+//     justify-items: center;
+//     align-items: center;
+//   }
+
+.dessert {
+  height: 300px;
+  width: 400px;
+}
+
+.dessert_section {
+  margin-top: 50px;
+  width: 700px;
+  text-align: center;
+  box-shadow: 5px 5px 5px #990011ff;
+  -moz-box-shadow: 5px 5px 5px #990011ff;
+  -webkit-box-shadow: 5px 5px 5px #990011ff;
+  -khtml-box-shadow: 5px 5px 5px #990011ff;
+  border-radius: 8px 100px / 120px;
+  margin-bottom: 20px;
+
+  h4 {
+    font-family: $accent_font;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 5px $red_accent;
+    padding: 40px;
+  }
+
+  p {
+    font-family: $basic_font;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 40px;
+    line-height: 2rem;
+    color: white;
+  }
+}
+
+.ice_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}

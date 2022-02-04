@@ -4,6 +4,10 @@
 @import "starters.scss";
 @import "main_dishes.scss";
 @import "cocktails.scss";
+@import "wine_list.scss";
+@import "desserts.scss";
+@import "contact.scss";
+
 .container1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,15 +34,15 @@
   list-style-type: none;
   background-color: $red_accent;
 
-  height: 50px;
+  height: 80px;
 
   li {
-    margin-left: 15px;
+    margin-left: 25px;
     a {
       text-decoration: none;
       color: $background;
       font-family: $basic_font;
-      font-size: 1rem;
+      font-size: 1.2rem;
       font-weight: bold;
     }
   }
@@ -48,4 +52,19 @@
   text-decoration: none;
 }
 
-// Soups
+.vid {
+  width: 800px;
+}
+
+.footer {
+  height: 80px;
+  background-color: $red_accent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $background;
+  font-family: $nav_font;
+  flex-direction: column;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
