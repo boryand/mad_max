@@ -12,7 +12,7 @@ const Our_menu = () => {
 
     transform: "translate(-50%, -50%)",
     "font-family": "Comforter",
-    "font-size": "8rem",
+    "font-size": "7rem",
     color: "#fff4ef",
     "text-shadow": "5px 3px #990011ff ",
     cursor: "pointer",

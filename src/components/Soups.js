@@ -6,12 +6,11 @@ import soup4 from "../media/soup4.jpg";
 const Soups = () => {
   return (
     <div className="soup_container">
-       <button className="btn">
+      <button className="btn">
         {" "}
         <a href="/menu">Go Back</a>
       </button>
       <div className="soup_section">
-
         {" "}
         <h4>Creamy Shrimp and Crab Bisque </h4>
         <img className="soup" alt="soup1" src={soup1} />

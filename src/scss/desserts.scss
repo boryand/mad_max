@@ -25,14 +25,6 @@
   justify-content: center;
 }
 
-// .dessert_container {
-//     background-color: $background;
-//     display: flex;
-//     flex-direction: column;
-//     justify-items: center;
-//     align-items: center;
-//   }
-
 .dessert {
   height: 300px;
   width: 400px;
@@ -73,4 +65,239 @@
   flex-direction: column;
   align-items: center;
   background-color: black;
+}
+
+@media only screen and (max-width: 322px) {
+  .dess1 {
+    height: 200px;
+  }
+  .dessert_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dessert {
+    width: 200px;
+    height: 200px;
+  }
+
+  .dessert_section {
+    width: 300px;
+  }
+  .sweet {
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 322px) and (max-width: 376px) {
+  .dess1 {
+    height: 200px;
+  }
+  .dessert_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dessert {
+    width: 200px;
+    height: 200px;
+  }
+
+  .dessert_section {
+    width: 300px;
+  }
+  .sweet {
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 426px) {
+  .dess1 {
+    height: 200px;
+  }
+  .dessert_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dessert {
+    width: 200px;
+    height: 200px;
+  }
+
+  .dessert_section {
+    width: 350px;
+  }
+  .sweet {
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 526px) {
+  .dess1 {
+    height: 200px;
+  }
+  .dessert_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dessert {
+    width: 200px;
+    height: 200px;
+  }
+
+  .dessert_section {
+    width: 350px;
+  }
+  .sweet {
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 526px) and (max-width: 626px) {
+  .dess1 {
+    height: 200px;
+  }
+  .dessert_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dessert {
+    width: 200px;
+    height: 200px;
+  }
+
+  .dessert_section {
+    width: 450px;
+  }
+  .sweet {
+    font-size: 4rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 626px) and (max-width: 769px) {
+  .dess1 {
+    height: 200px;
+  }
+
+  .dessert {
+    width: 200px;
+    height: 200px;
+  }
+
+  .dessert_section {
+    width: 550px;
+  }
+  .sweet {
+    font-size: 4rem;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  .dessert_container {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 869px) {
+  .dess1 {
+    height: 200px;
+  }
+
+  .dessert {
+    width: 200px;
+    height: 200px;
+  }
+
+  .dessert_section {
+    width: 550px;
+  }
+  .sweet {
+    font-size: 4rem;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  .dessert_container {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 869px) and (max-width: 969px) {
+  .dess1 {
+    height: 200px;
+  }
+
+  .dessert {
+    width: 200px;
+    height: 200px;
+  }
+
+  .dessert_section {
+    width: 650px;
+  }
+  .sweet {
+    font-size: 6rem;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  .dessert_container {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 969px) and (max-width: 1025px) {
+  .dess1 {
+    height: 200px;
+  }
+
+  .dessert {
+    width: 200px;
+    height: 200px;
+  }
+
+  .dessert_section {
+    width: 650px;
+  }
+  .sweet {
+    font-size: 6rem;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  .dessert_container {
+    height: 350px;
+  }
 }

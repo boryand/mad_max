@@ -1,8 +1,7 @@
-import logo from "../media/logo.png";
 import social1 from "../media/social1.png";
 import social2 from "../media/social2.png";
 import social3 from "../media/social3.png";
-import gig from "../media/gig.gif";
+
 import hello from "../media/hello.png";
 import web_icon from "../media/web_icon.jpg";
 
@@ -29,7 +28,7 @@ const Contact_us = () => {
           <img alt="media" src={web_icon} className="media" />{" "}
         </a>
       </div>
-      <img src={hello} />
+      <img className="dev" src={hello} alt="developer" />
     </div>
   );
 };

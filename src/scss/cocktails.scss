@@ -61,7 +61,134 @@
   }
 }
 
-.btn a:hover {
-  color: $red_accent;
-  background-color: $background;
+@media only screen and (max-width: 322px) {
+  .cocktail {
+    height: 170px;
+    width: 200px;
+  }
+
+  .cocktails_section {
+    margin-top: 50px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 4px 4px 2px #990011ff;
+    -moz-box-shadow: 4px 4px 2px #990011ff;
+    -webkit-box-shadow: 4px 4px 2px #990011ff;
+    -khtml-box-shadow: 4px 4px 2px #990011ff;
+    border-radius: 4px 100px / 120px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 322px) and (max-width: 376px) {
+  .cocktail {
+    height: 170px;
+    width: 200px;
+  }
+
+  .cocktails_section {
+    margin-top: 50px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 4px 4px 2px #990011ff;
+    -moz-box-shadow: 4px 4px 2px #990011ff;
+    -webkit-box-shadow: 4px 4px 2px #990011ff;
+    -khtml-box-shadow: 4px 4px 2px #990011ff;
+    border-radius: 4px 100px / 120px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 426px) {
+  .cocktail {
+    height: 170px;
+    width: 200px;
+  }
+
+  .cocktails_section {
+    margin-top: 50px;
+    width: 370px;
+    text-align: center;
+    box-shadow: 4px 4px 2px #990011ff;
+    -moz-box-shadow: 4px 4px 2px #990011ff;
+    -webkit-box-shadow: 4px 4px 2px #990011ff;
+    -khtml-box-shadow: 4px 4px 2px #990011ff;
+    border-radius: 4px 100px / 120px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 526px) {
+  .cocktail {
+    height: 170px;
+    width: 200px;
+  }
+
+  .cocktails_section {
+    margin-top: 50px;
+    width: 420px;
+    text-align: center;
+    box-shadow: 4px 4px 2px #990011ff;
+    -moz-box-shadow: 4px 4px 2px #990011ff;
+    -webkit-box-shadow: 4px 4px 2px #990011ff;
+    -khtml-box-shadow: 4px 4px 2px #990011ff;
+    border-radius: 4px 100px / 120px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 526px) and (max-width: 626px) {
+  .cocktail {
+    height: 270px;
+    width: 300px;
+  }
+
+  .cocktails_section {
+    margin-top: 50px;
+    width: 520px;
+    text-align: center;
+    box-shadow: 4px 4px 2px #990011ff;
+    -moz-box-shadow: 4px 4px 2px #990011ff;
+    -webkit-box-shadow: 4px 4px 2px #990011ff;
+    -khtml-box-shadow: 4px 4px 2px #990011ff;
+    border-radius: 4px 100px / 120px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 626px) and (max-width: 780px) {
+  .cocktail {
+    height: 270px;
+    width: 300px;
+  }
+
+  .cocktails_section {
+    margin-top: 50px;
+    width: 520px;
+    text-align: center;
+    box-shadow: 4px 4px 2px #990011ff;
+    -moz-box-shadow: 4px 4px 2px #990011ff;
+    -webkit-box-shadow: 4px 4px 2px #990011ff;
+    -khtml-box-shadow: 4px 4px 2px #990011ff;
+    border-radius: 4px 100px / 120px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    display: none;
+  }
 }

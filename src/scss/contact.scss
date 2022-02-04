@@ -4,9 +4,6 @@
   background-color: $background;
   color: black;
   height: 600px;
-
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .dev_contact {
@@ -38,3 +35,370 @@
   font-size: 6rem;
   color: $red_accent;
 }
+
+@media only screen and(max-width:322px) {
+  .logo_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $background;
+    color: black;
+  }
+  .media {
+    margin: 0;
+  }
+
+  .dev_contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+
+    h6 {
+      font-family: $accent_font;
+      font-size: 2rem;
+      color: $red_accent;
+    }
+  }
+
+  .dev {
+    height: 230px;
+  }
+
+  .my_contacts {
+    font-family: $accent_font;
+    font-size: 3rem;
+    color: $red_accent;
+    padding-top: 20px;
+  }
+
+  h6 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and(min-width:322px) and (max-width: 376px) {
+  .logo_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $background;
+    color: black;
+  }
+  .media {
+    margin: 0;
+  }
+
+  .dev_contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+
+    h6 {
+      font-family: $accent_font;
+      font-size: 2rem;
+      color: $red_accent;
+    }
+  }
+
+  .dev {
+    height: 230px;
+  }
+
+  .my_contacts {
+    font-family: $accent_font;
+    font-size: 3rem;
+    color: $red_accent;
+    padding-top: 20px;
+  }
+
+  h6 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and(min-width:376px) and (max-width: 426px) {
+  .logo_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $background;
+    color: black;
+  }
+  .media {
+    margin: 0;
+  }
+
+  .dev_contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+
+    h6 {
+      font-family: $accent_font;
+      font-size: 2rem;
+      color: $red_accent;
+    }
+  }
+
+  .dev {
+    height: 230px;
+  }
+
+  .my_contacts {
+    font-family: $accent_font;
+    font-size: 3rem;
+    color: $red_accent;
+    padding-top: 20px;
+  }
+
+  h6 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and(min-width:426px) and (max-width: 526px) {
+  .logo_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $background;
+    color: black;
+  }
+  .media {
+    margin: 0;
+  }
+
+  .dev_contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 410px;
+
+    h6 {
+      font-family: $accent_font;
+      font-size: 3rem;
+      color: $red_accent;
+    }
+  }
+
+  .dev {
+    height: 200px;
+  }
+
+  .my_contacts {
+    font-family: $accent_font;
+    font-size: 5rem;
+    color: $red_accent;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and(min-width:526px) and (max-width: 626px) {
+  .logo_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $background;
+    color: black;
+  }
+  .media {
+    margin: 0;
+  }
+
+  .dev_contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 410px;
+
+    h6 {
+      font-family: $accent_font;
+      font-size: 3rem;
+      color: $red_accent;
+    }
+  }
+
+  .dev {
+    height: 200px;
+  }
+
+  .my_contacts {
+    font-family: $accent_font;
+    font-size: 5rem;
+    color: $red_accent;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and(min-width:626px) and (max-width: 770px) {
+  .media {
+    margin: 0;
+  }
+
+  .dev_contact {
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-content: flex-start;
+    height: 410px;
+
+    h6 {
+      font-family: $accent_font;
+      font-size: 3rem;
+      color: $red_accent;
+    }
+  }
+
+  .dev {
+    height: 450px;
+    margin-top: 40px;
+  }
+
+  .my_contacts {
+    font-family: $accent_font;
+    font-size: 5rem;
+    color: $red_accent;
+    padding-top: 20px;
+  }
+  .logo_container {
+    height: 500px;
+  }
+}
+
+@media only screen and(min-width:770px) and (max-width: 870px) {
+  .media {
+    margin: 0;
+  }
+
+  .dev_contact {
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-content: flex-start;
+    height: 410px;
+
+    h6 {
+      font-family: $accent_font;
+      font-size: 3rem;
+      color: $red_accent;
+    }
+  }
+
+  .dev {
+    height: 450px;
+    margin-top: 40px;
+  }
+
+  .my_contacts {
+    font-family: $accent_font;
+    font-size: 5rem;
+    color: $red_accent;
+    padding-top: 20px;
+  }
+  .logo_container {
+    height: 500px;
+  }
+}
+
+
+@media only screen and(min-width:870px) and (max-width: 970px) {
+  .media {
+    margin: 0;
+  }
+
+  .dev_contact {
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-content: flex-start;
+    height: 410px;
+
+    h6 {
+      font-family: $accent_font;
+      font-size: 3rem;
+      color: $red_accent;
+    }
+  }
+
+  .dev {
+    height: 450px;
+    margin-top: 40px;
+  }
+
+  .my_contacts {
+    font-family: $accent_font;
+    font-size: 5rem;
+    color: $red_accent;
+    padding-top: 20px;
+  }
+  .logo_container {
+    height: 500px;
+  }
+}
+
+@media only screen and(min-width:970px) and (max-width: 1070px) {
+  .media {
+    margin: 0;
+  }
+
+  .dev_contact {
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-content: flex-start;
+    height: 410px;
+
+    h6 {
+      font-family: $accent_font;
+      font-size: 3rem;
+      color: $red_accent;
+    }
+  }
+
+  .dev {
+    height: 450px;
+    margin-top: 40px;
+  }
+
+  .my_contacts {
+    font-family: $accent_font;
+    font-size: 5rem;
+    color: $red_accent;
+    padding-top: 20px;
+  }
+  .logo_container {
+    height: 500px;
+  }
+}
+
+
