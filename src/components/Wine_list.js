@@ -66,13 +66,22 @@ const Wine_list = () => {
       </div>
 
       <div className="pic_wine_container">
-        <div className="hol">     <img src={wine3} alt="wine" className="wine1" /> </div>
-        <div className="hol">     <img src={wine4} alt="wine" className="wine1" /> </div>
-        <div className="hol">     <img src={wine5} alt="wine" className="wine1" /> </div>
-        <div className="hol">     <img src={wine6} alt="wine" className="wine1" /> </div>
-   
-
-      
+        <div className="hol">
+          {" "}
+          <img src={wine3} alt="wine" className="wine1" />{" "}
+        </div>
+        <div className="hol">
+          {" "}
+          <img src={wine4} alt="wine" className="wine1" />{" "}
+        </div>
+        <div className="hol">
+          {" "}
+          <img src={wine5} alt="wine" className="wine1" />{" "}
+        </div>
+        <div className="hol">
+          {" "}
+          <img src={wine6} alt="wine" className="wine1" />{" "}
+        </div>
       </div>
     </div>
   );
