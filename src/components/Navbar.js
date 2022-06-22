@@ -16,10 +16,7 @@ const Nav = () => {
           {" "}
           <a href="/desserts">Desserts</a>
         </li>
-        <li>
-          {" "}
-          <a href="/contact_us">Contact </a>
-        </li>
+       
       </ul>
     </div>
   );
