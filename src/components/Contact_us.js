@@ -22,10 +22,7 @@ const Contact_us = () => {
           {" "}
           <img alt="media" src={social2} className="media" />{" "}
         </a>
-        <a href="https://github.com/boryand" target="_blank">
-          {" "}
-          <img alt="media" src={social3} className="media" />{" "}
-        </a>
+      
         <a href="https://www.boryana-dimitrova.com/" target="_blank">
           {" "}
           <img alt="media" src={web_icon} className="media" />{" "}
