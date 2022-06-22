@@ -7,7 +7,7 @@ import Nav from "./components/Navbar";
 import Our_menu from "./components/Our_menu";
 import Wine_list from "./components/Wine_list";
 import Desserts from "./components/Desserts";
-import Contact_us from "./components/Contact_us";
+
 import Soups from "./components/Soups";
 import Starters from "./components/Starters";
 import Main_dishes from "./components/Main_dishes";
@@ -32,9 +32,7 @@ function App() {
           <Route exact path="/desserts">
             <Desserts />
           </Route>
-          <Route exact path="/contact_us">
-            <Contact_us />
-          </Route>
+          
           <Route exact path="/soups">
             <Soups />
           </Route>
