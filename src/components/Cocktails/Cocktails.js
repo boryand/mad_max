@@ -1,7 +1,7 @@
-import drink1 from "../media/drink1.jpg";
-import drink2 from "../media/drink2.jpg";
-import drink3 from "../media/drink3.jpg";
-import drink4 from "../media/drink4.jpg";
+import drink1 from "../../media/drink1.jpg";
+import drink2 from "../../media/drink2.jpg";
+import drink3 from "../../media/drink3.jpg";
+import drink4 from "../../media/drink4.jpg";
 
 const Cocktails = () => {
   return (
