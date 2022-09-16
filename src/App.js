@@ -4,13 +4,13 @@ import "../src/scss/style.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Landing from "./components/Landing";
 import Nav from "./components/Navbar";
-import Our_menu from "./components/Our_menu";
-import Wine_list from "./components/Wine_list";
+import Our_menu from "./components/OurMenu";
+import Wine_list from "./components/WineList";
 import Desserts from "./components/Desserts";
 
 import Soups from "./components/Soups";
 import Starters from "./components/Starters";
-import Main_dishes from "./components/Main_dishes";
+import Main_dishes from "./components/MainDishes";
 import Cocktails from "./components/Cocktails";
 import Footer from "./components/footer";
 
