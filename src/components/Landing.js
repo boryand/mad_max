@@ -1,4 +1,4 @@
-import logo from "../media/logo.png";
+
 
 const Landing = () => {
   return (
