@@ -1,6 +1,6 @@
 {
   "name": "mad_max",
-  "homepage": "http://boryand.github.io/mad_max",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
